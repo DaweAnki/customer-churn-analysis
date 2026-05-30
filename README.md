@@ -31,22 +31,23 @@ This project analyzes customer churn for a telecom company using the Kaggle Telc
 | Streamlit | Web app deployment |
 
 ## 📁 Project Structure
+```
 customer-churn-analysis/
 ├── data/
-│   ├── raw/                  # Original dataset
-│   └── cleaned/              # Cleaned CSVs
+│   ├── raw/
+│   └── cleaned/
 ├── notebooks/
 │   ├── 01_EDA_and_Data_Cleaning.ipynb
 │   └── 02_Statistical_Analysis_and_Modeling.ipynb
 ├── src/
-│   ├── figures/              # All charts
-│   └── models/               # Saved ML model
-├── dashboard/                # Power BI file
-├── app/                      # Streamlit app
+│   ├── figures/
+│   └── models/
+├── dashboard/
+├── app/
 │   ├── app.py
 │   └── requirements.txt
 └── README.md
-
+```
 ## 📊 Power BI Dashboard
 ![Dashboard](dashboard/dashboard_preview.png)
 
