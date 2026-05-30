@@ -33,12 +33,12 @@ st.markdown("""
 # Load Data and Model
 @st.cache_data
 def load_data():
-    return pd.read_csv('../data/cleaned/telco_churn_dashboard.csv')
+    return pd.read_csv('data/cleaned/telco_churn_dashboard.csv')
 
 @st.cache_resource
 def load_model():
-    model = joblib.load('../src/models/churn_model.pkl')
-    scaler = joblib.load('../src/models/scaler.pkl')
+    model = joblib.load('src/models/churn_model.pkl')
+    scaler = joblib.load('src/models/scaler.pkl')
     return model, scaler
 
 df = load_data()
